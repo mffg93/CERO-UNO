@@ -31,7 +31,7 @@ Esta carpeta contiene los archivos para las sesiones de Introducción a Python r
 1. Agenda del día 
 2. Proyecto 
 
-### 4. Ejercicios 
+### 3. Ejercicios 
 Múltiples ejercicios de práctica disponibles
 
 ### 5. Solución - proyecto
