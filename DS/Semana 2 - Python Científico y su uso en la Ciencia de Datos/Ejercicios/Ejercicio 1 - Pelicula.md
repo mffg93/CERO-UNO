@@ -1,8 +1,8 @@
-# Ejercio 1 - Películas
+# Ejercicio 1 - Películas
 
-##Pasos a seguir: 
+## Pasos a seguir: 
 
-## 1. Archivo **movies** 
+### 1. Archivo **movies** 
 
     1. Crear el Dataframe  
 
@@ -19,7 +19,7 @@
         - Segunda Columna ¿Acaso los valores son únicos?
         - Registro número 40
    
-## 2. Archivo **ratings**
+ ### 2. Archivo **ratings**
 
     1. ¿Conocemos los datos? 
         - ¿Entendemos todos?
@@ -33,7 +33,7 @@
     
     5. ¿cuáles son las películas son las 20 mejores  y peores según las calificaciones? ¿Cuáles son las más calificadas? 
 
-## 3. Pongamonos serios: 
+### 3. Pongamonos serios: 
     
     1. La columna de genero en el DataFrame tiene divisiones, ¿podemos poner cada genero en una columna? 
     2. Concatena las nuevas columnas y quita la columna vieja
