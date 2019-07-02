@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Scrapy settings for fundrazr project
+# Scrapy settings for Quote project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -9,14 +9,14 @@
 #     https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'fundrazr'
+BOT_NAME = 'Quote'
 
-SPIDER_MODULES = ['fundrazr.spiders']
-NEWSPIDER_MODULE = 'fundrazr.spiders'
+SPIDER_MODULES = ['Quote.spiders']
+NEWSPIDER_MODULE = 'Quote.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'fundrazr (+http://www.yourdomain.com)'
+#USER_AGENT = 'Quote (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
@@ -47,13 +47,13 @@ ROBOTSTXT_OBEY = True
 # Enable or disable spider middlewares
 # See https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    'fundrazr.middlewares.FundrazrSpiderMiddleware': 543,
+#    'Quote.middlewares.QuoteSpiderMiddleware': 543,
 #}
 
 # Enable or disable downloader middlewares
 # See https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    'fundrazr.middlewares.FundrazrDownloaderMiddleware': 543,
+#    'Quote.middlewares.QuoteDownloaderMiddleware': 543,
 #}
 
 # Enable or disable extensions
@@ -65,7 +65,7 @@ ROBOTSTXT_OBEY = True
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 #ITEM_PIPELINES = {
-#    'fundrazr.pipelines.FundrazrPipeline': 300,
+#    'Quote.pipelines.QuotePipeline': 300,
 #}
 
 # Enable and configure the AutoThrottle extension (disabled by default)

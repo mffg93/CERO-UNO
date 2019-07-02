@@ -2,7 +2,7 @@ import scrapy
 from ..items import MercadoItem
 
 class MercadoSpider(scrapy.Spider):
-    name='Wolf'
+    name='Market'
     
     def start_requests(self):
         for i in range(0,3):

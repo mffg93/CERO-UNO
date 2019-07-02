@@ -2,7 +2,7 @@ import scrapy
 from ..items import PalacioItem
 
 class PalacioSpider(scrapy.Spider):
-    name='Arthur'
+    name='Palace'
     
 
     def start_requests(self):
